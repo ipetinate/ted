@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TED - Teste seu template de e-mail</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Tags -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="title" class="title">TED - Teste seu template de e-mail</h1>
+
+      <!-- <div class="langs">
+        <button id="pt-lang" class="lang">Português 🇧🇷</button>
+        <button id="en-lang" class="lang">English 🇬🇧</button>
+      </div> -->
+    </header>
+
+    <main>
+      <form action="/form" method="post">
+        <div class="field">
+          <label for="to">Destinatário</label>
+          <input type="email" name="to" id="to" placeholder="Destinatário" />
+        </div>
+
+        <div class="field">
+          <label for="subject">Assunto</label>
+          <input type="text" name="subject" id="subject" placeholder="Assunto" />
+        </div>
+
+        <div class="field">
+          <label for="html">Arquivo HTML</label>
+          <input
+            type="file"
+            name="html"
+            id="html"
+            placeholder="Selecionar Template de E-mail"
+          />
+        </div>
+
+        <div class="field">
+          <button onclick="() => e.preventDefault()" type="submit" id="send" class="send">Enviar</input>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <span id="made-by">Feito com 💙 por</span>
+      <span>&nbsp;</span>
+      <span>
+        <a class="link" href="http://github.com/ipetinate">Isac Petinate</a>
+      </span>
+    </footer>
+
+  </body>
+</html>

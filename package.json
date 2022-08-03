@@ -1,0 +1,42 @@
+{
+  "name": "ted",
+  "version": "0.0.1",
+  "description": "Testador de Email em Desenvolvimento",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipetinate/ted.git"
+  },
+  "keywords": [
+    "tester",
+    "email",
+    "sender",
+    "email",
+    "sender",
+    "mailer",
+    "email",
+    "gmail",
+    "template",
+    "node"
+  ],
+  "author": "Isac Petinate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipetinate/ted/issues"
+  },
+  "homepage": "https://github.com/ipetinate/ted#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-busboy": "^9.0.0",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "nodemailer": "^6.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
