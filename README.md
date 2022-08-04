@@ -13,3 +13,10 @@ Testador Email em Dev
 
 
 ![Captura de Tela 2022-08-04 às 10 00 39](https://user-images.githubusercontent.com/15758789/182853182-2d2c9f9b-b1e2-44e7-ab9d-1c4c2e62c1c5.png)
+
+
+### Próximos passos
+
+1. Avaliar a construção de uma versao standalone com tudo integrado onde você consiga enviar emails via Nodemailer e receber via MailDev dentro de uma app Electron
+2. OU Construir um sender em eletron que envie para seu serviço de e-mail escolhido
+3. OU Usar este frontend para enviar mensagens sem necessidade do NodemailerApp
