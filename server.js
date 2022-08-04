@@ -22,6 +22,6 @@ app.post('/form', (req, res) => {
 
         return res.redirect('/')
     } catch (error) {
-        return res.redirect('/error.html')
+        return res.sendFile('/public/error.html')
     }
 })
