@@ -18,7 +18,8 @@ app.listen(PORT, () => {
 
 app.post('/form', (req, res) => {
     try {
-        mailController(makeEmailData(req))
+        mailController(req)
+
         return res.redirect('/')
     } catch (error) {
         return res.redirect('/error.html')
