@@ -26,19 +26,22 @@
     </header>
 
     <main>
-      <form action="/form" method="post">
+      <form method="POST" action="/form" enctype="multipart/form-data">
         <div class="field">
           <label for="to">Destinatário</label>
+
           <input type="email" name="to" id="to" placeholder="Destinatário" />
         </div>
 
         <div class="field">
           <label for="subject">Assunto</label>
+
           <input type="text" name="subject" id="subject" placeholder="Assunto" />
         </div>
 
         <div class="field">
           <label for="html">Arquivo HTML</label>
+
           <input
             type="file"
             name="html"
