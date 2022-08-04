@@ -2,7 +2,6 @@ const express = require('express')
 const fileUpload = require('express-fileupload')
 
 const mailController = require('./controllers/mail-controller')
-const makeEmailData = require('./tools/make-email-data')
 
 const PORT = 5050
 const app = express()
